@@ -11,10 +11,7 @@ export default function navbar({menuOpen,setMenuOpen}) {
             <div className="navitem">
             <a href="#projects">Projects</a> 
             </div>
-            <div className="navitem">
-               
-            <a href="#contact">Contact</a> 
-            </div>
+           
           
         </div>
     )
