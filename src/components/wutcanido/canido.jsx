@@ -87,7 +87,7 @@ export default function Canido() {
                       className={classes.inline}
                       color="textPrimary"
                     >
-                      Worked on an application for lap operators Manage critical tasks in lab from a single mobile interface. Atellica Asa Application is a tablet-based trusted assistant designed to simplify and organize operator interactions with Atellica® Solution analyzers.
+                      Worked on an application for lab operators Manage critical tasks in lab from a single mobile interface. Atellica Asa Application is a tablet-based trusted assistant designed to simplify and organize operator interactions with Atellica® Solution analyzers.
                     </Typography>
                   </React.Fragment>
                 }
@@ -161,7 +161,7 @@ export default function Canido() {
                       className={classes.inline}
                       color="textPrimary"
                     >
-                      Worked on an application for lap operators Manage critical tasks in lab from a single mobile interface. Atellica Asa Application is a tablet-based trusted assistant designed to simplify and organize operator interactions with Atellica® Solution analyzers.
+                      Worked on an application for lab operators Manage critical tasks in lab from a single mobile interface. Atellica Asa Application is a tablet-based trusted assistant designed to simplify and organize operator interactions with Atellica® Solution analyzers.
                     </Typography>
 
                   </React.Fragment>
