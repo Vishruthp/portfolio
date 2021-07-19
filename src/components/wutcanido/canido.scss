@@ -7,8 +7,12 @@
     background-color: rebeccapurple;
     .title{
         color: white;
-        margin: 20px;
         font-weight: 400;
+        margin-top: -50px;
+        margin-bottom: 10px;
+        @include mobile{
+          margin: 20px;
+        }
     }
     .container {
         display: flex;
