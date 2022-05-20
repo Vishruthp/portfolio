@@ -93,6 +93,24 @@ export default function Canido() {
                 }
               />
             </ListItem>
+
+            <ListItem alignItems="flex-start">
+              <ListItemText
+                primary="Philips Healthcare"
+                secondary={
+                  <React.Fragment>
+                    <Typography
+                      component="span"
+                      variant="body2"
+                      className={classes.inline}
+                      color="textPrimary"
+                    >
+                      Working as a full-stack dev in platformization of Philips Healthcare’s platform's services.
+                    </Typography>
+                  </React.Fragment>
+                }
+              />
+            </ListItem>
           </List>
         </div>
       </div>
@@ -109,6 +127,7 @@ export default function Canido() {
           <img className="progimg" src="./assets/docker.png" alt=""></img>
           <img className="progimg" src="./assets/arduino.png" alt=""></img>
           <img className="progimg" src="./assets/rasp.png" alt=""></img>
+          
 
         </div>
         <div className="mystuff">
@@ -164,6 +183,23 @@ export default function Canido() {
                       Worked on an application for lab operators Manage critical tasks in lab from a single mobile interface. Atellica Asa Application is a tablet-based trusted assistant designed to simplify and organize operator interactions with Atellica® Solution analyzers.
                     </Typography>
 
+                  </React.Fragment>
+                }
+              />
+            </ListItem>
+            <ListItem alignItems="flex-start">
+              <ListItemText
+                primary="Philips Healthcare"
+                secondary={
+                  <React.Fragment>
+                    <Typography
+                      component="span"
+                      variant="body2"
+                      className={classes.inline}
+                      color="textPrimary"
+                    >
+                      Working as a full-stack dev in platformization of Philips Healthcare’s platform's services.
+                    </Typography>
                   </React.Fragment>
                 }
               />
