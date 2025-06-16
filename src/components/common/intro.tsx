@@ -2,11 +2,7 @@
 import React, { useEffect, useRef } from "react";
 import {
   Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
+  CardContent
 } from "@/components/ui/card";
 import { Avatar, AvatarImage } from "../ui/avatar";
 import { Separator } from "../ui/separator";

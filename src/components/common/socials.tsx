@@ -3,7 +3,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import { socials } from "@/constants/constants";
 import Link from "next/link";
 import Image from "next/image";
-import { useTheme } from "next-themes";
 
 function Socials() {
   return (
