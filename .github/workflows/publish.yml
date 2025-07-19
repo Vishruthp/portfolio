@@ -32,12 +32,6 @@ jobs:
       - name: Build with Next.js 🏗️
         run: npm run build
 
-  deploy:
-    environment:
-      name: github-pages
-    runs-on: self-hosted
-    needs: build
-    steps:
       - name: Publish to GitHub Pages 🚀
         uses: peaceiris/actions-gh-pages@v4
         with:
