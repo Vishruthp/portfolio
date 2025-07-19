@@ -1,17 +1,9 @@
-import Intro from "@/components/common/intro";
-import Projects from "@/components/common/projects";
-import Socials from "@/components/common/socials";
-import Work from "@/components/common/work";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex justify-center m-4 items-center min-h-screen">
-      <main>
-        <Intro />
-        <Work />
-        <Projects />
-        <Socials />
-      </main>
+    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
+      <h2> Hello this is a test</h2>
     </div>
   );
 }
