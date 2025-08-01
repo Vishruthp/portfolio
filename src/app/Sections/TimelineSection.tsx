@@ -1,3 +1,4 @@
+"use client"
 import Card from "@/common_components/Card/Card";
 import Timeline from "@/common_components/Timeline/Timeline";
 import { Typography } from "@/common_components/Typography/Typography";

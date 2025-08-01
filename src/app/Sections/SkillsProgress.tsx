@@ -1,3 +1,4 @@
+"use client"
 import Card from "@/common_components/Card/Card";
 import ProgressBar from "@/common_components/ProgressBar/ProgressBar";
 import Skill, { SkillType } from "@/common_components/Skill/Skill";

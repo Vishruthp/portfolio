@@ -1,3 +1,4 @@
+"use client"
 import Skill, { SkillType } from "@/common_components/Skill/Skill";
 import { Typography } from "@/common_components/Typography/Typography";
 import React from "react";

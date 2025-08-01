@@ -1,3 +1,4 @@
+"use client"
 import Avatar from "@/common_components/Avatar/Avatar";
 import Badge from "@/common_components/Badge/Badge";
 import Card from "@/common_components/Card/Card";

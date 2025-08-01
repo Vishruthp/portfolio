@@ -1,3 +1,4 @@
+"use client"
 import Card, { CardBackground } from "@/common_components/Card/Card";
 import { Typography } from "@/common_components/Typography/Typography";
 import { BotMessageSquare, Boxes, KeyRound, Magnet } from "lucide-react";
