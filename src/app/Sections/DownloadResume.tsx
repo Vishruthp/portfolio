@@ -9,23 +9,23 @@ function DownloadResume() {
   const contacts = [
     {
       name: "twitter",
-      icon: "/assets/twitter.svg",
+      icon: "/portfolio/assets/twitter.svg",
     },
     {
       name: "linkedin",
-      icon: "/assets/linkedin.svg",
+      icon: "/portfolio/assets/linkedin.svg",
     },
     {
       name: "stackoverflow",
-      icon: "/assets/stackoverflow.svg",
+      icon: "/portfolio/assets/stackoverflow.svg",
     },
     {
       name: "instagram",
-      icon: "/assets/instagram.svg",
+      icon: "/portfolio/assets/instagram.svg",
     },
     {
       name: "github",
-      icon: "/assets/github.svg",
+      icon: "/portfolio/assets/github.svg",
     },
   ];
 

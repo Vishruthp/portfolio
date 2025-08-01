@@ -8,19 +8,19 @@ type SkillProps = {
 };
 
 export enum SkillType {
-  Github = "/assets/github.svg",
-  Angular = "/assets/angular.png",
-  Arduino = "/assets/adruino.png",
-  Couch = "/assets/couch.png",
-  Docker = "/assets/docker.png",
-  React = "/assets/react.png",
-  DotNet = "/assets/net.png",
-  NextJs = "/assets/next.svg",
-  MongoDB = "/assets/mongodb.png",
-  NodeJs = "/assets/nodejs.png",
-  Kubernetes = "/assets/kubernetes.png",
-  Postgres = "/assets/postgresql.svg",
-  Redis = "/assets/redis.png",
+  Github = "/portfolio/assets/github.svg",
+  Angular = "/portfolio/assets/angular.png",
+  Arduino = "/portfolio/assets/adruino.png",
+  Couch = "/portfolio/assets/couch.png",
+  Docker = "/portfolio/assets/docker.png",
+  React = "/portfolio/assets/react.png",
+  DotNet = "/portfolio/assets/net.png",
+  NextJs = "/portfolio/assets/next.svg",
+  MongoDB = "/portfolio/assets/mongodb.png",
+  NodeJs = "/portfolio/assets/nodejs.png",
+  Kubernetes = "/portfolio/assets/kubernetes.png",
+  Postgres = "/portfolio/assets/postgresql.svg",
+  Redis = "/portfolio/assets/redis.png",
 }
 
 function Skill({ size, skillType }: SkillProps) {

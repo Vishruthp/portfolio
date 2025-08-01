@@ -17,7 +17,7 @@ function HeroSection({ className = "" }: HeroSectionProps) {
       <div>
         <div className="flex flex-col gap-2 justify-center items-center">
           <div className="flex flex-row justify-center items-center gap-2">
-            <Avatar src="/assets/profile.png" alt="Your Name" size="xl" />
+            <Avatar src="/portfolio/assets/profile.png" alt="Your Name" size="xl" />
             <Typography variant="h1" fontWeight="semibold">
               Hi, Vishruth Here{" "}
             </Typography>
@@ -32,9 +32,6 @@ function HeroSection({ className = "" }: HeroSectionProps) {
             className="h-10"
           />
         </div>
-        {/* <div className="flex flex-row justify-center items-center gap-2 p-2">    
-          <Button variant="primary" icon={<Download />}>Download Resume</Button>
-        </div> */}
         <AboutMe />
       </div>
     </Card>
