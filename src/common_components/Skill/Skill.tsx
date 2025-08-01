@@ -34,6 +34,7 @@ function Skill({ size, skillType }: SkillProps) {
       alt={altText}
       width={AvatarSize[size]}
       height={AvatarSize[size]}
+      unoptimized
     />
   );
 }

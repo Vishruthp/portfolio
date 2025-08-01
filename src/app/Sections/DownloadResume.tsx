@@ -9,23 +9,23 @@ function DownloadResume() {
   const contacts = [
     {
       name: "twitter",
-      icon: "/twitter.svg",
+      icon: "/assets/twitter.svg",
     },
     {
       name: "linkedin",
-      icon: "/linkedin.svg",
+      icon: "/assets/linkedin.svg",
     },
     {
       name: "stackoverflow",
-      icon: "/stackoverflow.svg",
+      icon: "/assets/stackoverflow.svg",
     },
     {
       name: "instagram",
-      icon: "/instagram.svg",
+      icon: "/assets/instagram.svg",
     },
     {
       name: "github",
-      icon: "/github.svg",
+      icon: "/assets/github.svg",
     },
   ];
 
@@ -44,7 +44,7 @@ function DownloadResume() {
           return (
             <div key={index}>
               <a href="#">
-                <Image src={item.icon} alt="test" width="20" height="20" />
+                <Image src={item.icon} alt="test" width="20" height="20" unoptimized/>
               </a>
             </div>
           );
