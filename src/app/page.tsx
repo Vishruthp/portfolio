@@ -1,11 +1,19 @@
-import { ModeToggle } from "@/components/ui/theme-toggle";
-import Image from "next/image";
+import DownloadResume from "./Sections/DownloadResume";
+import HeroSection from "./Sections/HeroSection";
+import Projects from "./Sections/Projects";
+import Timeline from "./Sections/TimelineSection";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <ModeToggle />
-      <h2> Now does it work with quick updates </h2>
+    <div className="font-sans flex flex-col justify-center items-center min-h-screen m-2">
+      <main>
+        <div className="grid grid-cols-1 gap-4 m-4 md:w-[70vw]">
+          <HeroSection />
+          <Timeline />
+          <Projects />
+          <DownloadResume />
+        </div>
+      </main>
     </div>
   );
 }
