@@ -1,11 +1,26 @@
-"use client"
+"use client";
 import Card, { CardBackground } from "@/common_components/Card/Card";
 import { Typography } from "@/common_components/Typography/Typography";
-import { BotMessageSquare, Boxes, KeyRound, Magnet } from "lucide-react";
+import {
+  BotMessageSquare,
+  Boxes,
+  CircuitBoard,
+  HandPlatter,
+  KeyRound,
+  Magnet,
+  UserPen,
+} from "lucide-react";
 import React from "react";
 
 function Projects() {
   const projects = [
+    {
+      projectName: "Portfolio",
+      projectDescription: `This portfolio is built using Next.js, React, and Tailwind CSS. It showcases my skills,
+projects, and experience as a developer. The design is responsive and optimized for both desktop and mobile devices.`,
+      projectImage: <UserPen />,
+      projectUrl: "https://github.com/Vishruthp/portfolio",
+    },
     {
       projectName: "Convo Buddy",
       projectDescription:
@@ -18,20 +33,21 @@ function Projects() {
       projectDescription:
         "Simple React app and node server to get details (password,website) from the user and store it in couchdb. Crypto Algo Used aes-256-ctr",
       projectImage: <KeyRound />,
-      projectUrl: "https://github.com/Vishruthp/convobuddy",
+      projectUrl: "https://github.com/Vishruthp/pwdManager",
     },
     {
-      projectName: "KubeScope",
+      projectName: "KubeScope (On Going)",
       projectDescription:
-        "KubeScope is an advanced and intuitive Kubernetes dashboard viewer built using flutter meticulously designed to offer comprehensive insights into the health, performance, and resource utilization of your clusters.",
-      projectImage: <Boxes />,
-      projectUrl: "https://github.com/Vishruthp/kubescope",
+        "KubeScope is an intuitive Kubernetes dashboard viewer getting built using flutter designed to offer comprehensive insights into the health, performance, and resource utilization of clusters.",
+      projectImage: <HandPlatter />,
+      projectUrl: null,
     },
     {
-      projectName: "BreezeC#App",
-      projectDescription: "Server with breeze apis and mcp",
-      projectImage: <Magnet />,
-      projectUrl: "https://github.com/Vishruthp/BreezeAppCSharp",
+      projectName: "Automated System (On Going)",
+      projectDescription:
+        "Exploring IoT-based home automation solutions utilizing Arduino and Raspberry Pi platforms to enhance connectivity, monitoring, and control within residential environments.",
+      projectImage: <CircuitBoard />,
+      projectUrl: null,
     },
   ];
   return (
@@ -53,9 +69,15 @@ function Projects() {
               </Typography>
               <p> {item.projectDescription} </p>
               <p>
-                <a href={item.projectUrl} className="color-blue-500">
-                  Project
-                </a>
+                {item.projectUrl && (
+                  <a
+                    href={item.projectUrl}
+                    target="_blank"
+                    className="text-blue-500"
+                  >
+                    Repo
+                  </a>
+                )}
               </p>
             </Card>
           );

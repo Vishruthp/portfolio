@@ -35,7 +35,7 @@ function DownloadResume() {
         Resume & Socials
       </Typography>
        <div className="flex items-center justify-center m-2">
-        <a href="/SuuuuperResume.pdf" download>
+        <a href="/portfolio/assets/Vishruth_Patil_Resume.pdf" download>
           <Button variant="secondary">Download</Button>
         </a>
       </div>

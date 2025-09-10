@@ -31,7 +31,7 @@ function TimelineItem({
         </Typography>
       )}
       {description && (
-        <p className="mt-1 text-sm text-black">{description}</p>
+        <p className="mt-1 text-sm text-gray-500">{description}</p>
       )}
     </div>
   );

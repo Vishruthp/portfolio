@@ -8,7 +8,7 @@ type CardProps = {
 };
 
 export enum CardBackground {
-  primary = "#38b969",
+  primary = "#000000ff",
   secondary = "#fff",
 }
 
