@@ -21,7 +21,7 @@ function Projects() {
     {
       projectName: "Convo Buddy",
       projectDescription:
-        "ConvoBuddy is a local AI-powered chatbot built using Node.js, leveraging the power of an Ollama instance running directly on your device.",
+        "ConvoBuddy is a local AI-powered chatbot built using Next js, leveraging the power of an Ollama instance running directly on your device.",
       projectImage: <BotMessageSquare />,
       projectUrl: "https://github.com/Vishruthp/convobuddy",
     },
