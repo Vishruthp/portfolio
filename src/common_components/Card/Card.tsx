@@ -9,8 +9,8 @@ type CardProps = {
 
 
 export enum CardBackground {
-  primary = "#000000ff",
-  secondary = "#fff",
+  primary = "#1b1b1bff",
+  secondary = "#24362bff",
 }
 
 function Card({

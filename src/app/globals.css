@@ -20,14 +20,14 @@
 }
 
 body {
-  background-color: #f7eaea;
+  background-color: #000000;
   opacity: 1;
-  background-image: repeating-radial-gradient(
+  /* background-image: repeating-radial-gradient(
       circle at 0 0,
       transparent 0,
       #f7eaea 40px
     ),
-    repeating-linear-gradient(#a6c5a655, #a6c5a6);
-  color: #fff;
+    repeating-linear-gradient(#02020255, #000000); */
+  color: #000000;
   font-family: Arial, Helvetica, sans-serif;
 }

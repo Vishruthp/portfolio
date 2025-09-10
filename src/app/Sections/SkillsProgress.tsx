@@ -13,25 +13,25 @@ export default function SkillsProgress() {
       <div className="flex flex-row justify-center items-center gap-4 mt-5">
         <div className="w-50 flex flex-col gap-2">
           <ProgressBar
-            icon={<Skill skillType={SkillType.NextJs} size="sm" />}
+            
             label="NextJs"
             value={70}
             color="blue"
           />
           <ProgressBar
-            icon={<Skill skillType={SkillType.React} size="sm" />}
+          
             label="React"
             value={85}
             color="blue"
           />
           <ProgressBar
-            icon={<Skill skillType={SkillType.Docker} size="sm" />}
+          
             label="Docker"
             value={65}
             color="green"
           />
           <ProgressBar
-            icon={<Skill skillType={SkillType.Kubernetes} size="sm" />}
+          
             label="Kubernetes"
             value={50}
             color="yellow"
@@ -40,19 +40,19 @@ export default function SkillsProgress() {
         <div className="w-50 flex flex-col gap-2">
           <ProgressBar label="Testing (Jest, MS Test)" value={50} color="red" />
           <ProgressBar
-            icon={<Skill skillType={SkillType.Postgres} size="sm" />}
+         
             label="Postgres"
             value={65}
             color="green"
           />
           <ProgressBar
-            icon={<Skill skillType={SkillType.Redis} size="sm" />}
+           
             label="Redis"
             value={40}
             color="yellow"
           />
           <ProgressBar
-            icon={<Skill skillType={SkillType.DotNet} size="sm" />}
+          
             label="DotNet"
             value={90}
             color="green"

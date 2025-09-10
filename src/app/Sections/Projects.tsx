@@ -3,11 +3,9 @@ import Card, { CardBackground } from "@/common_components/Card/Card";
 import { Typography } from "@/common_components/Typography/Typography";
 import {
   BotMessageSquare,
-  Boxes,
   CircuitBoard,
   HandPlatter,
   KeyRound,
-  Magnet,
   UserPen,
 } from "lucide-react";
 import React from "react";
@@ -16,8 +14,7 @@ function Projects() {
   const projects = [
     {
       projectName: "Portfolio",
-      projectDescription: `This portfolio is built using Next.js, React, and Tailwind CSS. It showcases my skills,
-projects, and experience as a developer. The design is responsive and optimized for both desktop and mobile devices.`,
+      projectDescription: `This portfolio is developed using Next.js and Tailwind CSS without any third-party UI libraries. It highlights my skills as a developer. The design is fully responsive and optimized for seamless viewing on both desktop and mobile devices.`,
       projectImage: <UserPen />,
       projectUrl: "https://github.com/Vishruthp/portfolio",
     },
@@ -62,12 +59,12 @@ projects, and experience as a developer. The design is responsive and optimized 
           return (
             <Card key={index} cardBackground={CardBackground.secondary}>
               <div>
-                <span className="text-lg">{item.projectImage}</span>
+                <span className="text-lg text-white">{item.projectImage}</span>
               </div>
-              <Typography variant="h3" fontWeight="bold">
+              <Typography variant="h3" fontWeight="bold" className="text-blue-400">
                 {item.projectName}
               </Typography>
-              <p> {item.projectDescription} </p>
+              <p className="text-white"> {item.projectDescription} </p>
               <p>
                 {item.projectUrl && (
                   <a
