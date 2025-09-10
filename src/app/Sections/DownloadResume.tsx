@@ -10,22 +10,27 @@ function DownloadResume() {
     {
       name: "twitter",
       icon: "/portfolio/assets/twitter.svg",
+      link: "https://x.com/vishruthpatil"
     },
     {
       name: "linkedin",
       icon: "/portfolio/assets/linkedin.svg",
+      link: "https://www.linkedin.com/in/vishruth-patil-55962ab6/"
     },
     {
       name: "stackoverflow",
       icon: "/portfolio/assets/stackoverflow.svg",
+      link: "https://stackoverflow.com/users/6799753/kaido"
     },
     {
       name: "instagram",
       icon: "/portfolio/assets/instagram.svg",
+      link: "https://www.instagram.com/vishruthpatil/"
     },
     {
       name: "github",
       icon: "/portfolio/assets/github.svg",
+      link: "https://github.com/Vishruthp"
     },
   ];
 
@@ -48,7 +53,7 @@ function DownloadResume() {
         {contacts.map((item, index) => {
           return (
             <div key={index}>
-              <a href="#">
+              <a href={item.link} target="_blank">
                 <Image
                   src={item.icon}
                   alt="test"
