@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - migratingtonext  # or your default branch
+      - main  # or your default branch
 
 permissions:
   contents: write
