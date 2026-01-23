@@ -8,6 +8,7 @@ import {
   ExternalLink,
   HandPlatter,
   KeyRound,
+  TrendingUp,
   UserPen,
 } from "lucide-react";
 import React from "react";
@@ -37,15 +38,15 @@ function Projects() {
       projectUrl: "https://github.com/Vishruthp/pwdManager",
       tags: ["React", "Node.js", "CouchDB"]
     },
-    {
-      projectName: "KubeScope",
-      projectDescription:
-        "KubeScope is an intuitive Kubernetes dashboard viewer getting built using flutter designed to offer comprehensive insights into the health of clusters.",
-      projectImage: <HandPlatter className="w-6 h-6" />,
-      projectUrl: null,
-      status: "On Going",
-      tags: ["Flutter", "Kubernetes"]
-    },
+    // {
+    //   projectName: "KubeScope",
+    //   projectDescription:
+    //     "KubeScope is an intuitive Kubernetes dashboard viewer getting built using flutter designed to offer comprehensive insights into the health of clusters.",
+    //   projectImage: <HandPlatter className="w-6 h-6" />,
+    //   projectUrl: null,
+    //   status: "On Going",
+    //   tags: ["Flutter", "Kubernetes"]
+    // },
     {
       projectName: "Automated System",
       projectDescription:
@@ -54,6 +55,14 @@ function Projects() {
       projectUrl: null,
       status: "On Going",
       tags: ["IoT", "Arduino", "Raspberry Pi"]
+    },
+    {
+      projectName: "Trading Bot",
+      projectDescription: "ICICI Bank has a sdk called Breeze which can be used to tap into the shares apis. I am in the process of building an application which converts this api into a graphql model and add the functionality of mcp to it. This will allow users to easily access and manage their shares and equity through a simple chat interface.",
+      projectImage: <TrendingUp className="w-6 h-6" />,
+      projectUrl: null,
+      status: "On Going",
+      tags: ["Go", "AI", "Next.js", "Flutter"]
     },
   ];
 
@@ -87,7 +96,7 @@ function Projects() {
               
               <div className="flex flex-wrap gap-2 pt-2">
                 {item.tags.map((tag, tIdx) => (
-                  <span key={tIdx} className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-white/5 text-gray-500 border border-white/5">
+                  <span key={tIdx} className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-white/5 text-white border border-white/5">
                     {tag}
                   </span>
                 ))}
