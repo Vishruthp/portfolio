@@ -8,11 +8,11 @@ type BadgeProps = {
 };
 
 const variantStyles = {
-  success: "bg-green-100 text-green-800 border-green-300",
-  info: "bg-blue-100 text-blue-800 border-blue-300",
-  warning: "bg-yellow-100 text-yellow-800 border-yellow-300",
-  danger: "bg-red-100 text-red-800 border-red-300",
-  neutral: "bg-gray-100 text-gray-800 border-gray-300",
+  success: "bg-green-500/10 text-green-400 border-green-500/20",
+  info: "bg-blue-500/10 text-blue-400 border-blue-500/20",
+  warning: "bg-yellow-500/10 text-yellow-400 border-yellow-500/20",
+  danger: "bg-red-500/10 text-red-400 border-red-500/20",
+  neutral: "bg-white/5 text-gray-300 border-white/10",
 };
 
 function Badge({
@@ -23,9 +23,9 @@ function Badge({
 }: BadgeProps) {
   return (
     <span
-      className={`inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm font-medium border ${variantStyles[variant]} ${className}`}
+      className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide border backdrop-blur-sm ${variantStyles[variant]} ${className}`}
     >
-      {icon && <span className="text-lg">{icon}</span>}
+      {icon && <span className="flex items-center">{icon}</span>}
       {label}
     </span>
   );
