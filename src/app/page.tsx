@@ -11,9 +11,8 @@ export default function Home() {
         <div className="grid grid-cols-1 gap-4 m-4 md:w-[70vw]">
           <HeroSection />
           <Timeline />
-            <SkillsProgress />
+          <SkillsProgress />
           <Projects />
-        
           <DownloadResume />
         </div>
       </main>

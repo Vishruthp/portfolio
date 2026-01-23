@@ -6,11 +6,12 @@ type AvatarProps = {
   src: string,
   alt: string,
   size: AvatarSizeKey
+  className?: string
 };
 
-function Avatar({ src, alt, size } : AvatarProps) {
+function Avatar({ src, alt, size, className } : AvatarProps) {
   return (
-   <Image src={src} alt={alt} width={AvatarSize[size]} className='rounded-full' height={AvatarSize[size]} unoptimized/>
+   <Image src={src} alt={alt} width={AvatarSize[size]} className={`rounded-full ${className}`} height={AvatarSize[size]} unoptimized/>
   )
 }
 

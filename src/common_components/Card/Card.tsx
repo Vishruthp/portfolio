@@ -4,27 +4,15 @@ import "./Card.css";
 type CardProps = {
   children?: React.ReactNode;
   className?: string;
-  cardBackground?: CardBackground;
 };
-
-
-export enum CardBackground {
-  primary = "#1b1b1bff",
-  secondary = "#24362bff",
-}
 
 function Card({
   children,
   className = "",
-  cardBackground = CardBackground.primary,
 }: CardProps) {
   return (
     <div
-      className={`card w-full ${className} transition-transform duration-200 hover:scale-102 hover:shadow-lg`}
-      style={{
-        backgroundColor: cardBackground,
-        color: cardBackground === CardBackground.secondary ? "#000" : "#fff",
-      }}
+      className={`glass glass-hover w-full p-6 rounded-2xl ${className}`}
     >
       {children}
     </div>
