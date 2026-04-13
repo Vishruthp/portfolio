@@ -31,18 +31,35 @@ const skillCategories: Category[] = [
     skills: [
       { label: "DotNet Core", value: 95, type: SkillType.DotNet, color: "blue" },
       { label: "NodeJs", value: 80, type: SkillType.NodeJs, color: "green" },
-      { label: "Docker", value: 85, type: SkillType.Docker, color: "blue" },
-      { label: "Kubernetes", value: 70, type: SkillType.Kubernetes, color: "accent" },
+      { label: "Go", value: 85, type: SkillType.Go, color: "blue" },
+    ],
+  },
+      {
+    title: "Mobile",
+    skills: [
+      { label: "Sqlite", value: 85, type: SkillType.SQlite, color: "accent" },
+      { label: "Android", value: 75, type: SkillType.Android, color: "red" },
+      { label: "Xamarin", value: 65, type: SkillType.Xamarin, color: "green" },
+      { label: "Flutter", value: 65, type: SkillType.Flutter, color: "green" },
     ],
   },
   {
-    title: "Databases & Tools",
+    title: "Databases",
     skills: [
       { label: "Postgres", value: 85, type: SkillType.Postgres, color: "accent" },
       { label: "Redis", value: 75, type: SkillType.Redis, color: "red" },
       { label: "MongoDB", value: 65, type: SkillType.MongoDB, color: "green" },
     ],
   },
+      {
+    title: "Devops",
+    skills: [
+      { label: "Docker", value: 85, type: SkillType.Docker, color: "blue" },
+      { label: "Kubernetes", value: 70, type: SkillType.Kubernetes, color: "accent" },
+      { label: "AWS", value: 50, type: SkillType.AWS, color: "blue" }
+    ],
+  },
+
 ];
 
 export default function SkillsProgress() {
@@ -58,7 +75,7 @@ export default function SkillsProgress() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6">
           {skillCategories.map((category, idx) => (
             <div key={idx} className="space-y-6 p-5 transition-colors">
               <Typography variant="h6" fontWeight="bold" className="text-white uppercase tracking-widest text-[10px]">

@@ -21,6 +21,12 @@ export enum SkillType {
   Kubernetes = "/portfolio/assets/kubernetes.png",
   Postgres = "/portfolio/assets/postgresql.svg",
   Redis = "/portfolio/assets/redis.png",
+  Go = "/portfolio/assets/golang.png",
+  AWS = "/portfolio/assets/aws-logo.svg",
+  Android = "/portfolio/assets/android-logo.png",
+  Xamarin = "/portfolio/assets/xamarin.svg",
+  Flutter = "/portfolio/assets/flutter.svg",
+  SQlite = "/portfolio/assets/sqlite-logo.svg"
 }
 
 function Skill({ size, skillType }: SkillProps) {
