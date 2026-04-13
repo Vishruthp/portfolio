@@ -48,6 +48,13 @@ function Projects() {
     //   tags: ["Flutter", "Kubernetes"]
     // },
     {
+      projectName: "Trading Api",
+      projectDescription: "ICICI Bank has a sdk called Breeze which can be used to tap into the shares apis. I am in the process of building an application which converts this api into a graphql model and add the functionality of mcp to it. This will allow users to easily access and manage their shares and equity through a simple chat interface.",
+      projectImage: <TrendingUp className="w-6 h-6" />,
+      projectUrl: "https://github.com/Vishruthp/Breeze-Trading", 
+      tags: ["Go", "AI", "Next.js", "Flutter"]
+    },
+    {
       projectName: "Automated System",
       projectDescription:
         "Exploring IoT-based home automation solutions utilizing Arduino and Raspberry Pi platforms to enhance connectivity and control.",
@@ -56,14 +63,7 @@ function Projects() {
       status: "On Going",
       tags: ["IoT", "Arduino", "Raspberry Pi"]
     },
-    {
-      projectName: "Trading Bot",
-      projectDescription: "ICICI Bank has a sdk called Breeze which can be used to tap into the shares apis. I am in the process of building an application which converts this api into a graphql model and add the functionality of mcp to it. This will allow users to easily access and manage their shares and equity through a simple chat interface.",
-      projectImage: <TrendingUp className="w-6 h-6" />,
-      projectUrl: null,
-      status: "On Going",
-      tags: ["Go", "AI", "Next.js", "Flutter"]
-    },
+
   ];
 
   return (
